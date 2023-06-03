@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div id="ipod">
+    <div id="screen">
+      <h1>iPod Classic</h1>
+      <div id="menu">
+        <ul>
+          <li onclick="openMusic()">Music</li>
+          <li onclick="openVideos()">Videos</li>
+          <li onclick="openPhotos()">Photos</li>
+          <li onclick="openSettings()">Settings</li>
+        </ul>
+      </div>
+      <div id="content">
+        <!-- Content goes here -->
+      </div>
+    </div>
+    <div id="clickwheel">
+      <div id="select-button" onclick="selectItem()"></div>
+      <div id="prev-button" onclick="previousItem()"></div>
+      <div id="next-button" onclick="nextItem()"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
